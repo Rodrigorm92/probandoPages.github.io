@@ -1,0 +1,31 @@
+#titulo  {
+    background-image: url("../Imagenes/design1_image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: x-large;
+    text-emphasis-position: left;
+   }
+
+
+#subtitulo {
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    
+   }
+
+
+body{
+    background-color: rgb(19, 217, 231);
+    color: black;
+}
+
+img {
+    position: absolute;
+    margin-top: -90px;
+    z-index: 0;
+    right: 0px;
+    width: 100px;
+    padding: 10px;
+  }

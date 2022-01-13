@@ -1,0 +1,74 @@
+#titulo  {
+    background-image: url("../Imagenes/design1_image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: x-large;
+    text-emphasis-position: left;
+   }
+
+
+#subtitulo {
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    
+   }
+
+
+body{
+    background-color: rgb(119, 4, 4);
+    color: black;
+}
+
+img {
+    position: absolute;
+    margin-top: -90px;
+    z-index: 0;
+    right: 0px;
+    width: 100px;
+    padding: 10px;
+  }
+
+
+
+
+#divizq {
+
+    background-color: rgb(90, 0, 0);
+
+}
+
+#divderecha {
+
+    background-color: rgba(0, 0, 0, 0.76);
+    color: whitesmoke;
+
+}
+
+#btn1 {
+    background-color: #000000;
+    color: whitesmoke;
+    vertical-align: text-top;
+    font-size: x-large;
+    text-align: right;
+
+   }
+
+#btn2 {
+    color: whitesmoke;
+    vertical-align: text-top;
+    font-size: x-large;
+    text-align: right;
+    background-color: #0000009f;
+
+   }
+
+
+   table {
+
+    border-style: solid;
+    border-radius: 10pt;
+    border: #4CAF50;
+
+   }

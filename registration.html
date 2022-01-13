@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="Estilos/nysl3.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <div id="titulo" >
+    </br></br></br>
+        <h1 align="center">  
+            Northside Your Soccer League
+            
+        </h1>
+    </br></br>
+        
+    </div>
+    <div id="subtitulo" align="center">
+        <h2 >Upcoming Events</h2>
+        <img src="Imagenes/nysl_logo.png"  >
+    </div>
+
+    <div>
+        <div id="divizq" align="center">
+            <h2>    
+            <button id="btn1" ><a href="index.html">Inicio</a> </button> 
+                <button id="btn2" ><a href="about.html">Acerca de NYSL</a></button> 
+                <button id="btn2" > <a href="contact.html">Contacto</a></button>
+                <button id="btn2" > <a href="game_info.html">Juegos</a></button>
+                <button id="btn2" > <a href="rules.html">Reglas</a></button>
+                <button id="btn2" > <a href="registration.html">Registro</a></button>
+            </h2>
+        </div>
+
+    <div id="divderecha">
+
+        <form action="show_data.html" method="get" accept-charset="ISO-8859-1">
+
+            <h1 align="center">Formulario de
+                inscripción</h1>
+            
+            <label for="primerNombre" > Nombre del jugador: </label>
+            <input type="text" id="primerNombre" name="primerNombre">
+            <label for="primerApellido"> Apellido:  </label>
+            <input type="text" id="primerApellido" name="primerApellido"> </br>  
+            <label for="txtDireccion"> Direccion: </label>
+            <input type="text" id="txtDireccion" name="txtDireccion"> </br>  
+            <label for="txtCiudadd"> Ciudad: </label>
+            <input type="text" id="txtCiudad" name="txtCiudad">
+            <label for="txtCodpostal"> Codigo Postal: </label>
+            <input type="text" id="txtCodpostal" name="txtCodpostal"> </br>  
+            <label for="txtFecha"> Fecha de nacimiento (dd/mm/aa):  </label>
+            <input type="text" id="txtFecha" name="txtFecha"> 
+           
+
+            <label for="genero">Género:</label>
+          <input type="radio" value="Femenino" name="genero">
+          <label for="femenino" > Femenino</label>
+          <input type="radio" value="Masculino" name="genero" >
+          <label for="masculino" > Masculino</label>
+          <input type="radio" value="Otro" name="genero" >
+          <label for="Otro" value="Otro"> Otro</label><br>
+
+
+
+
+
+          <label for="grado">Grado:</label>
+          <input type="radio" name="grado" value="Preescolar">
+          <label for="Preescolar"> Preescolar</label>
+          <input type="radio" name="grado" value="1°" >
+          <label for="1" > 1°</label>
+          <input type="radio" value="2°" name="grado" >
+          <label for="2" > 2°</label>
+          <input type="radio" value="3°" name="grado">
+          <label for="3" > 3°</label>
+          <input type="radio" value="4°" name="grado" >
+          <label for="4" > 4°</label>
+          <input type="radio" value="5°" name="grado" >
+          <label for="5" > 5°</label><br>
+
+
+
+
+           
+           
+            
+        <div>
+            <h3>De que escuela vives mas cerca?</h3>
+            <div style="float: left;">
+            <h3>Escuela mas cercana: </h3>
+            
+          <input type="radio" value="AJ Katzenmaier" name="escuelaCercana">
+          <label  > AJ Katzenmaier</label><br>
+          <input type="radio" value="Greenbay" name="escuelaCercana" >
+          <label > Greenbay</label><br>
+          <input type="radio" value="Howard A Yeager" name="escuelaCercana" >
+          <label > Howard A Yeager</label>
+
+            </div>
+
+            <div style="float: center;">
+                <br><br><br>
+          <input type="radio" value="Marjorie P Hart" name="escuelaCercana">
+          <label  > Marjorie P Hart</label><br>
+          <input type="radio" value="North Elementary" name="escuelaCercana" >
+          <label > North Elementary</label><br>
+          <input type="radio" value="South Elementary" name="escuelaCercana" >
+          <label > South Elementary</label>
+          
+
+            </div>
+        </div>
+
+            
+
+            <div>
+                <h3>¿Qué posición(es) juegas normalmente?</h3>
+                <h4>(marque todas las que correspondan)</h4>
+                <div style="float: left;">
+                    <input type="radio" value="Delantero" name="posicion">
+          <label  > Delantero</label><br>
+          <input type="radio" value="Portero" name="posicion" >
+          <label > Portero</label><br>
+
+                </div>
+                <div style="float: left;">
+
+                    <input type="radio" value="Mediocampo" name="posicion">
+          <label  > Mediocampo</label><br>
+          <input type="radio" value="Defensa" name="posicion" >
+          <label > Defensa</label><br>
+
+                </div>
+            </div>
+
+            <br><br>
+
+
+
+            <div>
+                <h3>Tamaño de uniforme:</h3>
+                <div style="float: left;">
+                    <input type="radio" value="Niño P" name="talla">
+          <label  > Niño P</label><br>
+          <input type="radio" value="Niño M" name="talla" >
+          <label > Niño M</label><br>
+          <input type="radio" value="Niño G" name="talla">
+          <label  > Niño G</label><br>
+          <input type="radio" value="Pequeño" name="talla" >
+          <label > Pequeño</label><br>
+
+                </div>
+                <div style="float: left;">
+
+                    <input type="radio" value="Mediano" name="talla">
+          <label  > Mediano</label><br>
+          <input type="radio" value="Grande" name="talla" >
+          <label > Grande</label><br>
+          <input type="radio" value="Extra Grande" name="talla" >
+          <label > Extra Grande</label><br>
+
+                </div>
+            </div>
+           
+            <br><br><br><br><br>
+
+            <h2>Permiso para jugar</h2>
+            <p>
+                
+Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+que he leído la política de cancelación y acepto sus términos.
+
+
+Firma Padre/Tutor:___________________________       Fecha:________________________
+            </p>
+
+
+
+
+
+
+
+
+
+
+            <input type="submit" value="Confirmar">
+        </form>
+
+    </div>
+
+</body>
+</html>

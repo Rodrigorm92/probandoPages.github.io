@@ -1,0 +1,54 @@
+#titulo  {
+    background-image: url("../Imagenes/design2_image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: x-large;
+    z-index: -1;
+    margin-top: 10px;
+    text-align: left;
+   }
+
+
+
+
+   #btn1 {
+    background-color: #4CAF50;
+    color: whitesmoke;
+    vertical-align: text-top;
+    font-size: x-large;
+    text-align: right;
+
+   }
+
+   #btn2 {
+    color: whitesmoke;
+    vertical-align: text-top;
+    font-size: x-large;
+    text-align: right;
+    background-color: #008CBA;
+
+   }
+
+
+#subtitulo {
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    
+   }
+
+
+body{
+    background-color: rgb(61, 173, 111);
+    color: black;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 0px;
+    z-index: 1;
+    right: 0px;
+    width: 100px;
+    padding: 10px;
+  }
